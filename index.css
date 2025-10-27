@@ -8,13 +8,10 @@ body{
     align-items: center;
   
    
-    height: 100vh;
+    height: 90vh;
     
 
 
-
-
-  
 }
 
 
@@ -57,8 +54,45 @@ h1:hover{
 
 
 img{
+    
     max-height: 20vh;
     max-width: 15vh;
     margin-right:auto ;
     
 }
+
+nav{ 
+   
+    border: solid #ffffff;
+
+    border-radius:30px;
+    padding: 1vh;
+    margin-right: auto;
+    text-decoration: none;
+   
+
+
+}
+
+a{
+    
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+
+
+.nav{
+    
+    margin-right: auto;
+    margin-bottom: auto;
+  
+    margin-right: auto;
+   padding: 0;
+    
+}
+
+
+
+
