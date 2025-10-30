@@ -18,7 +18,7 @@ body{
 *{
     
     font-size: larger;
-    
+   
     
 }
 
@@ -33,7 +33,7 @@ h1{
 div {
 
   display: flex;
-  
+ 
 padding:5vh;
   align-items: center;
   justify-content: center;
@@ -56,9 +56,11 @@ h1:hover{
 
 img{
     
-    max-height: 20vh;
+    max-height: 15vh;
     max-width: 10vh;
     margin-right:auto ;
+    margin-left: auto;
+    
     
 }
 
@@ -107,4 +109,44 @@ a{
     font-size: medium;
    
   
+}
+
+p{
+    border: solid white;
+    padding: 10px;
+    border-radius:25px ;
+    margin-top: auto;
+}
+
+
+@media (max-width: 600px){
+.nav{
+    display: inline-flex;
+    
+    margin-right: auto;
+    
+margin-left: auto;
+max-width: fit-content;
+   padding: 0;
+    gap: 10px;
+}
+
+p{
+   font-size: medium;
+   
+   
+}
+
+a{
+    font-size: small;
+}
+nav{
+    padding: 1vh;
+    justify-content: center;
+}
+
+img{
+max-height: 13vh;
+max-width: 9vh;
+}
 }
