@@ -137,6 +137,10 @@ p{
    
 }
 
+   div{
+width:fit-content;
+    }
+
 a{
     font-size: small;
 }
