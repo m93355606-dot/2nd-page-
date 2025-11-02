@@ -44,13 +44,17 @@ padding:5vh;
 
 p:hover{
 
-    color: aqua;
+    transform: scale(110%);
+transition-duration: 0.2s;
+
 }
 
 
 h1:hover{
    
-    color: aqua;
+   transform: scale(110%);
+transition-duration: 0.2s;
+
 }
 
 
@@ -153,4 +157,10 @@ img{
 max-height: 13vh;
 max-width: 9vh;
 }
+}
+
+nav:hover{
+ transform: scale(110%);
+transition-duration: 0.3s;
+
 }
