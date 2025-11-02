@@ -46,6 +46,7 @@ p:hover{
 
     transform: scale(110%);
 transition-duration: 0.2s;
+  cursor:pointer;
 
 }
 
@@ -54,6 +55,7 @@ h1:hover{
    
    transform: scale(110%);
 transition-duration: 0.2s;
+  cursor:pointer;
 
 }
 
@@ -159,8 +161,9 @@ max-width: 9vh;
 }
 }
 
-nav:hover{
+a:hover{
  transform: scale(110%);
 transition-duration: 0.3s;
+ cursor:pointer;
 
 }
